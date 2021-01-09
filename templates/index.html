@@ -12,7 +12,10 @@
 	<body>
     <div class="container">
       <img src="../static/logo.png" alt="Lexus" class="logo"/>
-      <!-- @todo - message -->
+			<!-- @todo - message -->
+			{% if message %}
+			<p class="message">{{ message | safe }}</p>
+			{% endif %}
       <form action="/submit" method="POST">
         <div class="form-group">
           <h3>Customer Name</h3>
