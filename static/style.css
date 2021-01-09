@@ -58,6 +58,10 @@ textarea {
   border: 1px solid #ccc;
 }
 
+input[type="radio"] {
+  margin: 0 0.5rem;
+}
+
 .btn {
   display: block;
   width: 100%;
