@@ -1,3 +1,8 @@
 {
-  "python.pythonPath": "/Users/moses/.local/share/virtualenvs/python-flask-traversy-media-yI72dvpT/bin/python"
+	"python.pythonPath": "/Users/moses/.local/share/virtualenvs/python-flask-traversy-media-yI72dvpT/bin/python",
+	"python.linting.pylintArgs": [
+		"--load-plugins",
+		"pylint_flask_sqlalchemy",
+		"pylint_flask"
+	]
 }
